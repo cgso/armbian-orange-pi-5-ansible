@@ -23,11 +23,14 @@ I am doing this as a hobby, so don't have too high excpectations.
 #Login to your SBC over SSH or use it's keyboard and screen directly on the device
 ssh <your regular user>@<Your Orange Pi 5 IP address>
 
+#Update package repositories
+sudo apt update
+
 #Install needed tools to use ansible, git and vim(you can use nano or something else too)
 sudo apt install -y git ansible vim
 
 #Clone this repo and go to it's directory
-git clone https://github.com/martivo/armbian-orange-pi-5-ansible.git
+git clone https://github.com/cgso/armbian-orange-pi-5-ansible.git
 cd armbian-orange-pi-5-ansible
 
 #Create configuration files
