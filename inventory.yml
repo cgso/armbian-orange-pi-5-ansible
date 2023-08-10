@@ -4,6 +4,7 @@ all:
       ansible_connection: local
   vars:
     normal_user: christian
+    user_ssh_authorized_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILiWAhwM47XKOtWgzOk6dTVORsJVcnTyVERyxa/GNpoy
     timezone: Europe/Copenhagen
     hostname: cgsorangepi5
     extra_software:
